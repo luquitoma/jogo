@@ -15,7 +15,18 @@ public class TelaIntroducaoController {
     @FXML
     private void initialize() {
 
-        videoPlayer = Util.tocarVideo("/videos/cutscene1.mp4", root);
+        btnConfirmar.setVisible(false);
+        btnConfirmar.setManaged(false);
+        tfNome.setVisible(false);
+        tfNome.setManaged(false);
+
+        videoPlayer = Util.tocarVideo("/videos/cutscene1-javafx.mp4", root, () -> {
+            tfNome.setManaged(true);
+            tfNome.setVisible(true);
+            btnConfirmar.setManaged(true);
+            btnConfirmar.setVisible(true);
+        });
+
     }
 
     private MediaPlayer videoPlayer;

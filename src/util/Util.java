@@ -139,6 +139,10 @@ public class Util {
     }
 
     public static MediaPlayer tocarVideo(String caminhoVideo, StackPane container) {
+        return tocarVideo(caminhoVideo, container, null);
+    }
+
+    public static MediaPlayer tocarVideo(String caminhoVideo, StackPane container, Runnable aoTerminar) {
         if (caminhoVideo == null || caminhoVideo.isBlank()) {
             throw new IllegalArgumentException("O caminho do vídeo não pode ser vazio.");
         }
@@ -175,6 +179,9 @@ public class Util {
             });
         });
         mediaPlayer.setVolume(0.2);
+        if (aoTerminar != null) {
+            mediaPlayer.setOnEndOfMedia(aoTerminar);
+        }
         mediaPlayer.play();
         return mediaPlayer;
     }

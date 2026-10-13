@@ -166,7 +166,7 @@
                                                 <Font size="32.0" />
                                              </font>
                                           </Button>
-                                          <Button fx:id="btnExcluirSave4" mnemonicParsing="false" onAction="#btnJogarSave4Action" onMouseEntered="#btnJogarSave4Hover" text="Excluir">
+                                          <Button fx:id="btnExcluirSave4" mnemonicParsing="false" onAction="#btnExcluirSave4Action" onMouseEntered="#btnJogarSave4Hover" text="Excluir">
                                              <font>
                                                 <Font size="32.0" />
                                              </font>
