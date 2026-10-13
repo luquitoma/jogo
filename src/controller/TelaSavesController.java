@@ -151,6 +151,16 @@ public class TelaSavesController {
     }
 
     @FXML
+    void btnExcluirSave4Action(ActionEvent event) {
+
+    }
+
+    @FXML
+    void btnExcluirSave4Hover(MouseEvent event) {
+        Util.tocarSom("/sounds/hover.wav");
+    }
+
+    @FXML
     void btnJogarSave1Action(ActionEvent event) {
         Util.abrirTela("/view/TelaIntroducao.fxml", btnJogarSave1, "/music/TelaIntroducao/TelaIntroducao.mp3");
         Util.tocarSom("/sounds/selecionar.wav");
