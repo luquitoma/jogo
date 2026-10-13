@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="807.0" stylesheets="@../style/tela-inicio-style.css" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TelaInicioController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="536.0" prefWidth="702.0" spacing="30.0">
+         <children>
+            <Label fx:id="labelTitulo" text="Farinha e o Último Guerreiro">
+               <font>
+                  <Font name="Candara" size="55.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="0.0" prefWidth="602.0" />
+            <Button fx:id="btnJogar" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#btnJogarAction" onMouseEntered="#btnJogarHover" prefHeight="54.0" prefWidth="218.0" text="Jogar" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnConfig" mnemonicParsing="false" onAction="#btnConfigAction" onMouseEntered="#btnConfigHover" prefHeight="58.0" prefWidth="218.0" text="Configurações">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnSair" mnemonicParsing="false" onAction="#btnSairAction" onMouseEntered="#btnSairHover" prefHeight="54.0" prefWidth="224.0" text="Sair">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</StackPane>

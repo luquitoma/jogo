@@ -1,0 +1,77 @@
+* {
+    -fx-font-family: "Candara", "Segoe UI", sans-serif;
+}
+#root {
+    -fx-background-color: rgb(255, 255, 255);
+}
+.label {
+    -fx-text-fill: white;
+}
+#hbHeader {
+    -fx-background-color:  rgb(9, 29, 117);
+}
+#lbHeader {
+    -fx-text-fill: white;
+}
+#save1 {
+    -fx-background-color: rgb(190, 12, 12);
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-background-radius: 60px;
+    -fx-border-radius: 60px;
+    -fx-padding: 10px;
+}
+#save2 {
+    -fx-background-color: rgb(0, 40, 101);
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-background-radius: 60px;
+    -fx-border-radius: 60px;
+    -fx-padding: 10px;
+}
+#save3 {
+    -fx-background-color: rgb(231, 205, 37);
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-background-radius: 60px;
+    -fx-border-radius: 60px;
+    -fx-padding: 10px;
+}
+#save4 {
+    -fx-background-color: rgb(15, 164, 15);
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-background-radius: 60px;
+    -fx-border-radius: 60px;
+    -fx-padding: 10px;
+}
+.button {
+    -fx-font-size: 32px;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-background-color: #514e4df5;
+    -fx-text-fill: white;
+}
+.button:hover {
+    -fx-font-size: 32px;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-background-color: #3e3e3ef5;
+    -fx-text-fill: white;
+}
+#btnVoltar {
+    -fx-background-color: rgb(9, 29, 117);
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 32px;
+    -fx-background-radius: 0px;
+    -fx-border-radius: 0px;
+}
+#btnVoltar:hover {
+    -fx-background-color: rgb(7, 19, 77);
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 32px;
+    -fx-background-radius: 0px;
+    -fx-border-radius: 0px;
+}

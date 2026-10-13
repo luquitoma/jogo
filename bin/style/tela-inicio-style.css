@@ -1,0 +1,22 @@
+* {
+    -fx-font-family: "Candara", "Segoe UI", sans-serif;
+    font-family: "Candara", "Segoe UI", sans-serif;
+}
+.root {
+    -fx-background-image: url("../images/tela-inicio.jpg");
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+.button {
+    -fx-background-color: #514e4df5;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 24px;
+}
+.button:hover{
+    -fx-background-color: #3e3e3ef5;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 24px;
+}
