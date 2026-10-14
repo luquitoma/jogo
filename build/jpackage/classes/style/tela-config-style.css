@@ -1,0 +1,36 @@
+* {
+    -fx-font-family: "Candara", "Segoe UI", sans-serif;
+    font-family: "Candara", "Segoe UI", sans-serif;
+}
+#hbHeader {
+    -fx-background-color: rgb(9, 29, 117);
+}
+#labelConfig {
+    -fx-text-fill: white;
+}
+.check-box .box {
+    -fx-min-width: 48px;
+    -fx-min-height: 48px;
+    -fx-pref-width: 48px;
+    -fx-pref-height: 48px;
+    -fx-background-color: rgb(192, 194, 195);
+}
+.check-box:hover .box:hover {
+    -fx-min-width: 48px;
+    -fx-min-height: 48px;
+    -fx-pref-width: 48px;
+    -fx-pref-height: 48px;
+    -fx-background-color: rgb(149, 149, 149);
+}
+.button {
+    -fx-background-color: rgb(9, 29, 117);
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 36px;
+}
+.button:hover {
+    -fx-background-color: rgb(7, 19, 77);
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 36px;
+}

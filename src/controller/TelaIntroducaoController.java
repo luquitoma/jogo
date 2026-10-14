@@ -20,7 +20,7 @@ public class TelaIntroducaoController {
         tfNome.setVisible(false);
         tfNome.setManaged(false);
 
-        videoPlayer = Util.tocarVideo("/videos/cutscene1-javafx.mp4", root, () -> {
+        videoPlayer = Util.tocarVideo("/videos/cutscene1-javafx-remux.mp4", root, () -> {
             tfNome.setManaged(true);
             tfNome.setVisible(true);
             btnConfirmar.setManaged(true);
